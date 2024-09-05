@@ -1,0 +1,27 @@
+@font-face {
+  font-family: roboto;
+  src: url("/fonts/Roboto");
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: roboto; /* Если хотите задать шрифт для всего тела, оставьте эту строку */
+}
